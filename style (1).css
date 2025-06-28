@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdfdfd;
+    color: #111;
+}
+
+header {
+    background: linear-gradient(to right, #0066ff, #00ccff);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header span {
+    color: yellow;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 280px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button, .btn {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
